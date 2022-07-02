@@ -9,6 +9,7 @@ terraform {
 
 variable "token" {
   type = string
+  default = "token"
 }
 
 # Configure the GitHub Provider
