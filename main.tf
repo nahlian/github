@@ -7,8 +7,13 @@ terraform {
   }
 }
 
+variable "token" {
+  type = string
+}
+
 # Configure the GitHub Provider
 provider "github" {
   base_url = "https://api.github.com/"
   owner    = "nahlian"
+  token    = var.token
 }
