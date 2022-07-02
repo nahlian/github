@@ -11,5 +11,4 @@ terraform {
 provider "github" {
   base_url = "https://api.github.com/"
   owner    = "nahlian"
-  app_auth {}
 }
