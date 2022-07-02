@@ -12,4 +12,5 @@ provider "github" {
   base_url = "https://api.github.com/"
   owner    = "nahlian"
   token    = var.token
+  app_auth {}
 }
